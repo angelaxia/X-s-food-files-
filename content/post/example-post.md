@@ -2,6 +2,7 @@
 title:  Example Post
 date: 2020-05-19
 tags: ["yams", "begonias"]
+draft: true
 ---
 
 Welcome to your new blog!
@@ -10,7 +11,7 @@ There are a few things you should familiarize yourself with before you begin blo
 
 ### Making New Posts
 
-Hugo is a website generator that turns markdown (.md) files into web pages. So each "post" of your blog will be a separate markdown file. If you haven't already, locate and open this file in your text editor (Atom). If you navigate to content > post, you should see "example-post.md". That file is what you are reading in your browser!
+Hugo is a website generator that turns markdown (.md) files into web pages. So each "post" of your blog will be a separate markdown file. If you haven't already, locate and open this file in your text editor (Atom, for example). If you navigate to content > post, you should see "example-post.md". You'll notice that the format of the file looks a bit 'code-like.' Press "ctrl+shift+m" in order to see a preview of what the markdown file will look like once it is rendered as a webpage. **Note: this preview will not render your photos, because that work is done by Hugo when you put your blog on the web.**
 
 There are three things to pay attention to when creating a new post.
 
@@ -28,7 +29,7 @@ A markdown file itself is a type of text file with minimal styling abilities bui
 
 #### Markdown Basics
 
-Markdown let's you _italicize_, **bold**, add footnotes,^[Hey, a footnote!] and [hyperlinks](https://wikipedia.org). For example, if you want to quote someone else at length, you can easily include a block quote by beginning a new line with a ">" sign:
+Markdown lets you _italicize_, **bold**, add footnotes,^[Hey, a footnote!] and [hyperlinks](https://wikipedia.org). For example, if you want to quote someone else at length, you can easily include a block quote by beginning a new line with a ">" sign:
 
 > This is a block quote. Markdown takes the ">" from our file and converts the paragraph into a block quote automatically! Isn't markdown fun?
 

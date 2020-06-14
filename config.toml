@@ -16,8 +16,8 @@ summaryLength = 0
   email = ""
   favicon = "/icon/favicon.jpg"
   about = """
-This is a simple blog about food and more. Enjoy!
-(c) 2020 Angela Xia
+X makes food and talks about it. 
+(c) 2020 Food Blog X
 """
 
   [[params.links]]
